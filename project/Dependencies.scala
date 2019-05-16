@@ -13,8 +13,6 @@ object Dependencies {
   val awsSqs = Seq("com.amazonaws" % "aws-java-sdk-sqs" % awsSDKVersion)
   val awsDynamoDB = Seq("com.amazonaws" % "aws-java-sdk-dynamodb" % awsSDKVersion)
 
-  val sprayJson = Seq("jp.lanscopean" %% "lspan-common-aws-event-sprayjson" % "2.1.0")
-
   val appHttpDeps = Seq(
     akkaHttp,
     akkaStream
