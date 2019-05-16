@@ -1,6 +1,8 @@
 import sbt._
 
 object Dependencies {
+  val sprayJson = Seq("io.spray" %%  "spray-json" % "1.3.5")
+
   val AkkaStreamVersion = "2.5.21"
 
   val akkaHttp = "com.typesafe.akka" %% "akka-http" % "10.1.7"
